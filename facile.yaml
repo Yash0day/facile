@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bheem-pod
+spec:
+  containers:
+  - name: bheem-container
+    image: yash0day/bheem
+    ports:
+    - containerPort: 8009
